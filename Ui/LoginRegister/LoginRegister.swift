@@ -53,7 +53,7 @@ struct LoginRegisterView: View {
                     Spacer()
                 }
             }
-            .navigationBarHidden(true) // Üst barı gizlemek için
+            .navigationBarHidden(true)
         }
     }
 }
@@ -85,8 +85,7 @@ struct LoginView: View {
                     .padding(.horizontal, 20)
 
                 Button(action: {
-                    // Giriş işlemi yapılacak
-                }) {
+                                  }) {
                     Text("Login")
                         .font(.headline)
                         .foregroundColor(.white)
